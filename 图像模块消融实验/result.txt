@@ -1,0 +1,595 @@
+E:\Anaconda3\envs\NMnet_New\python.exe E:/NM-net-xiexie/hehba最终定型/main.py
+2022-01-05 13:10:06.802683: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
+2022-01-05 13:10:06.806846: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+E:\Anaconda3\envs\NMnet_New\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In futur
+e, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+E:\NM-net-xiexie\hehba最终定型\transformations.py:1899: UserWarning: failed to import module _transformations
+  warnings.warn("failed to import module %s" % name)
+
+Bad key "text.kerning_factor" on line 4 in
+E:\Anaconda3\envs\NMnet_New\lib\site-packages\matplotlib\mpl-data\stylelib\_classic_test_patch.mplstyle.
+You probably need to get an updated matplotlibrc file from
+http://github.com/matplotlib/matplotlib/blob/master/matplotlibrc.template
+or from the matplotlib source distribution
+Setting up a new session...
+Initializing...
+Loading train data
+111111 E:/NM-net-xiexie/datasets\COLMAP\train
+merge_data 568
+xs_4 1570
+label 1570
+xs_12 1570
+others 1570
+训练集个数: 1570
+Starting from scratch...
+Starting Session>>>>>>
+WARNING:tensorflow:From E:\NM-net-xiexie\hehba最终定型\preprocess.py:221: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2022-01-05 13:12:53.021186: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2022-01-05 13:12:53.065852: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library nvcuda.dll
+2022-01-05 13:12:53.205768: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties:
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:01:00.0
+2022-01-05 13:12:53.211487: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
+2022-01-05 13:12:53.216036: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cublas64_100.dll'; dlerror: cublas64_100.dll not found
+2022-01-05 13:12:53.220347: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cufft64_100.dll'; dlerror: cufft64_100.dll not found
+2022-01-05 13:12:53.225046: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'curand64_100.dll'; dlerror: curand64_100.dll not found
+2022-01-05 13:12:53.230279: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cusolver64_100.dll'; dlerror: cusolver64_100.dll not found
+2022-01-05 13:12:53.235178: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cusparse64_100.dll'; dlerror: cusparse64_100.dll not found
+2022-01-05 13:12:53.238500: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2022-01-05 13:12:53.241149: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are insta
+lled properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-01-05 13:12:53.279358: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-01-05 13:12:53.283234: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0
+2022-01-05 13:12:53.285138: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N
+WARNING:tensorflow:From E:\NM-net-xiexie\hehba最终定型\preprocess.py:223: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From E:\NM-net-xiexie\hehba最终定型\tf_utils.py:68: The name tf.matrix_diag is deprecated. Please use tf.linalg.diag instead.
+
+WARNING:tensorflow:From E:\NM-net-xiexie\hehba最终定型\preprocess.py:245: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+E:/NM-net-xiexie/hehba最终定型/main.py:305: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requi
+res_grad_(True), rather than torch.tensor(sourceTensor).
+  img1s_temp = th.tensor(img1s_z_g, dtype=th.float32, requires_grad=False)
+E:/NM-net-xiexie/hehba最终定型/main.py:306: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requi
+res_grad_(True), rather than torch.tensor(sourceTensor).
+  xs1s_temp = th.tensor(xs1s, dtype=th.float32, requires_grad=False)
+E:/NM-net-xiexie/hehba最终定型/main.py:308: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requi
+res_grad_(True), rather than torch.tensor(sourceTensor).
+  img2s_temp = th.tensor(img2s_z_g, dtype=th.float32, requires_grad=False)
+E:/NM-net-xiexie/hehba最终定型/main.py:309: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requi
+res_grad_(True), rather than torch.tensor(sourceTensor).
+  xs2s_temp = th.tensor(xs2s, dtype=th.float32, requires_grad=False)
+E:\Anaconda3\envs\NMnet_New\lib\site-packages\torch\nn\functional.py:1614: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[W ..\aten\src\ATen\native\TensorIterator.cpp:924] Warning: Mixed memory format inputs detected while calling the operator. The operator will output channels_last tensor even if some
+of the inputs are not in channels_last format. (function operator ())
+Epoch: 0 / 20 ---- Trainning Loss : 0.08240668475627899
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+E:\NM-net-xiexie\hehba最终定型\pytorch_test.py:288: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach
+().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  img1s_temp = th.tensor(img1s_z_g, dtype=th.float32, requires_grad=False)
+E:\NM-net-xiexie\hehba最终定型\pytorch_test.py:289: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach
+().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  xs1s_temp = th.tensor(xs1s, dtype=th.float32, requires_grad=False)
+E:\NM-net-xiexie\hehba最终定型\pytorch_test.py:291: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach
+().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  img2s_temp = th.tensor(img2s_z_g, dtype=th.float32, requires_grad=False)
+E:\NM-net-xiexie\hehba最终定型\pytorch_test.py:292: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach
+().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  xs2s_temp = th.tensor(xs2s, dtype=th.float32, requires_grad=False)
+[0.8757186] [0.8178638] [0.82881117]
+Validation F-measure : [0.82881117]
+Saving best model with va_res = [0.82881117]
+Epoch: 1 / 20 ---- Trainning Loss : 0.04640800505876541
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9896184] [0.809692] [0.88569236]
+Validation F-measure : [0.88569236]
+Saving best model with va_res = [0.88569236]
+Epoch: 2 / 20 ---- Trainning Loss : 0.03771281614899635
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.8140616] [0.88899034] [0.8338319]
+Validation F-measure : [0.8338319]
+Epoch: 3 / 20 ---- Trainning Loss : 0.032437749207019806
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9722805] [0.8422269] [0.8964513]
+Validation F-measure : [0.8964513]
+Saving best model with va_res = [0.8964513]
+Epoch: 4 / 20 ---- Trainning Loss : 0.027799174189567566
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.97213846] [0.8670836] [0.9116604]
+Validation F-measure : [0.9116604]
+Saving best model with va_res = [0.9116604]
+Epoch: 5 / 20 ---- Trainning Loss : 0.023265007883310318
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9396136] [0.8773413] [0.9003979]
+Validation F-measure : [0.9003979]
+Epoch: 6 / 20 ---- Trainning Loss : 0.02020949311554432
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9557772] [0.8706086] [0.9043673]
+Validation F-measure : [0.9043673]
+Epoch: 7 / 20 ---- Trainning Loss : 0.016938311979174614
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.4659316] [0.9571266] [0.59163076]
+Validation F-measure : [0.59163076]
+Epoch: 8 / 20 ---- Trainning Loss : 0.014460615813732147
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9572276] [0.90310353] [0.9250314]
+Validation F-measure : [0.9250314]
+Saving best model with va_res = [0.9250314]
+Epoch: 9 / 20 ---- Trainning Loss : 0.0117121497169137
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.96947044] [0.8976646] [0.92715895]
+Validation F-measure : [0.92715895]
+Saving best model with va_res = [0.92715895]
+Epoch: 10 / 20 ---- Trainning Loss : 0.010520954616367817
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9449595] [0.9127136] [0.9231267]
+Validation F-measure : [0.9231267]
+Epoch: 11 / 20 ---- Trainning Loss : 0.008352716453373432
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9780664] [0.8789682] [0.9201269]
+Validation F-measure : [0.9201269]
+Epoch: 12 / 20 ---- Trainning Loss : 0.007341486867517233
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9756834] [0.91960853] [0.9433876]
+Validation F-measure : [0.9433876]
+Saving best model with va_res = [0.9433876]
+Epoch: 13 / 20 ---- Trainning Loss : 0.006273680366575718
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.97183543] [0.9197386] [0.94147635]
+Validation F-measure : [0.94147635]
+Epoch: 14 / 20 ---- Trainning Loss : 0.005255285184830427
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.94837385] [0.9370163] [0.9392104]
+Validation F-measure : [0.9392104]
+Epoch: 15 / 20 ---- Trainning Loss : 0.004571937955915928
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.86170954] [0.9486544] [0.8934696]
+Validation F-measure : [0.8934696]
+Epoch: 16 / 20 ---- Trainning Loss : 0.0039023011922836304
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.892516] [0.9504007] [0.9137039]
+Validation F-measure : [0.9137039]
+Epoch: 17 / 20 ---- Trainning Loss : 0.004039678256958723
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.84437686] [0.95950824] [0.8896037]
+Validation F-measure : [0.8896037]
+
+
+
+
+E:\Anaconda3\envs\NMnet_New\python.exe E:/NM-net-xiexie/hehba最终定型/main.py
+2022-01-06 11:46:11.027642: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
+2022-01-06 11:46:11.031485: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+E:\Anaconda3\envs\NMnet_New\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In futur
+e, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+E:\NM-net-xiexie\hehba最终定型\transformations.py:1899: UserWarning: failed to import module _transformations
+  warnings.warn("failed to import module %s" % name)
+
+Bad key "text.kerning_factor" on line 4 in
+E:\Anaconda3\envs\NMnet_New\lib\site-packages\matplotlib\mpl-data\stylelib\_classic_test_patch.mplstyle.
+You probably need to get an updated matplotlibrc file from
+http://github.com/matplotlib/matplotlib/blob/master/matplotlibrc.template
+or from the matplotlib source distribution
+Setting up a new session...
+Exception in user code:
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connection.py", line 170, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connection.py", line 234, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "E:\Anaconda3\envs\NMnet_New\lib\http\client.py", line 1287, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "E:\Anaconda3\envs\NMnet_New\lib\http\client.py", line 1333, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "E:\Anaconda3\envs\NMnet_New\lib\http\client.py", line 1282, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "E:\Anaconda3\envs\NMnet_New\lib\http\client.py", line 1042, in _send_output
+    self.send(msg)
+  File "E:\Anaconda3\envs\NMnet_New\lib\http\client.py", line 980, in send
+    self.connect()
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connection.py", line 200, in connect
+    conn = self._new_conn()
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connection.py", line 182, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000162284887B8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝
+，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /env/main (Caused by NewConnectionError('<urllib3.connection.HTTPConn
+ection object at 0x00000162284887B8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\visdom\__init__.py", line 711, in _send
+    data=json.dumps(msg),
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\visdom\__init__.py", line 677, in _handle_post
+    r = self.session.post(url, data=data)
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\requests\sessions.py", line 590, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /env/main (Caused by NewConnectionError('<urllib3.connection.HTTPC
+onnection object at 0x00000162284887B8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+[WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Visdom python client failed to establish socket to get messages from the server. This feature is optional and can be disabled by initializing Visdom with `use_incoming_socket=False`,
+which will prevent waiting for this request to timeout.
+Initializing...
+Restoring ...... 接着训练
+Exception in user code:
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connection.py", line 170, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connection.py", line 234, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "E:\Anaconda3\envs\NMnet_New\lib\http\client.py", line 1287, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "E:\Anaconda3\envs\NMnet_New\lib\http\client.py", line 1333, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "E:\Anaconda3\envs\NMnet_New\lib\http\client.py", line 1282, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "E:\Anaconda3\envs\NMnet_New\lib\http\client.py", line 1042, in _send_output
+    self.send(msg)
+  File "E:\Anaconda3\envs\NMnet_New\lib\http\client.py", line 980, in send
+    self.connect()
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connection.py", line 200, in connect
+    conn = self._new_conn()
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connection.py", line 182, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000016228549A90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝
+，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnec
+tion object at 0x0000016228549A90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\visdom\__init__.py", line 711, in _send
+    data=json.dumps(msg),
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\visdom\__init__.py", line 677, in _handle_post
+    r = self.session.post(url, data=data)
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\requests\sessions.py", line 590, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPCon
+nection object at 0x0000016228549A90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+Exception in user code:
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connection.py", line 170, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connection.py", line 234, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "E:\Anaconda3\envs\NMnet_New\lib\http\client.py", line 1287, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "E:\Anaconda3\envs\NMnet_New\lib\http\client.py", line 1333, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "E:\Anaconda3\envs\NMnet_New\lib\http\client.py", line 1282, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "E:\Anaconda3\envs\NMnet_New\lib\http\client.py", line 1042, in _send_output
+    self.send(msg)
+  File "E:\Anaconda3\envs\NMnet_New\lib\http\client.py", line 980, in send
+    self.connect()
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connection.py", line 200, in connect
+    conn = self._new_conn()
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connection.py", line 182, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000162285495F8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝
+，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnec
+tion object at 0x00000162285495F8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\visdom\__init__.py", line 711, in _send
+    data=json.dumps(msg),
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\visdom\__init__.py", line 677, in _handle_post
+    r = self.session.post(url, data=data)
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\requests\sessions.py", line 590, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\Anaconda3\envs\NMnet_New\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPCon
+nection object at 0x00000162285495F8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+Loading train data
+111111 E:/NM-net-xiexie/datasets\COLMAP\train
+merge_data 568
+xs_4 1570
+label 1570
+xs_12 1570
+others 1570
+训练集个数: 1570
+Starting from scratch...
+Starting Session>>>>>>
+WARNING:tensorflow:From E:\NM-net-xiexie\hehba最终定型\preprocess.py:221: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2022-01-06 11:50:37.748119: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2022-01-06 11:50:37.801726: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library nvcuda.dll
+2022-01-06 11:50:37.941636: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties:
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:01:00.0
+2022-01-06 11:50:37.949460: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
+2022-01-06 11:50:37.953489: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cublas64_100.dll'; dlerror: cublas64_100.dll not found
+2022-01-06 11:50:37.957645: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cufft64_100.dll'; dlerror: cufft64_100.dll not found
+2022-01-06 11:50:37.961593: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'curand64_100.dll'; dlerror: curand64_100.dll not found
+2022-01-06 11:50:37.967596: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cusolver64_100.dll'; dlerror: cusolver64_100.dll not found
+2022-01-06 11:50:37.971630: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cusparse64_100.dll'; dlerror: cusparse64_100.dll not found
+2022-01-06 11:50:37.975240: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2022-01-06 11:50:37.978680: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are insta
+lled properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-01-06 11:50:38.012414: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-01-06 11:50:38.016619: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0
+2022-01-06 11:50:38.018892: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N
+WARNING:tensorflow:From E:\NM-net-xiexie\hehba最终定型\preprocess.py:223: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From E:\NM-net-xiexie\hehba最终定型\tf_utils.py:68: The name tf.matrix_diag is deprecated. Please use tf.linalg.diag instead.
+
+WARNING:tensorflow:From E:\NM-net-xiexie\hehba最终定型\preprocess.py:245: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+E:/NM-net-xiexie/hehba最终定型/main.py:305: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requi
+res_grad_(True), rather than torch.tensor(sourceTensor).
+  img1s_temp = th.tensor(img1s_z_g, dtype=th.float32, requires_grad=False)
+E:/NM-net-xiexie/hehba最终定型/main.py:306: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requi
+res_grad_(True), rather than torch.tensor(sourceTensor).
+  xs1s_temp = th.tensor(xs1s, dtype=th.float32, requires_grad=False)
+E:/NM-net-xiexie/hehba最终定型/main.py:308: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requi
+res_grad_(True), rather than torch.tensor(sourceTensor).
+  img2s_temp = th.tensor(img2s_z_g, dtype=th.float32, requires_grad=False)
+E:/NM-net-xiexie/hehba最终定型/main.py:309: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requi
+res_grad_(True), rather than torch.tensor(sourceTensor).
+  xs2s_temp = th.tensor(xs2s, dtype=th.float32, requires_grad=False)
+E:\Anaconda3\envs\NMnet_New\lib\site-packages\torch\nn\functional.py:1614: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[W ..\aten\src\ATen\native\TensorIterator.cpp:924] Warning: Mixed memory format inputs detected while calling the operator. The operator will output channels_last tensor even if some
+of the inputs are not in channels_last format. (function operator ())
+Epoch: 0 / 2 ---- Trainning Loss : 0.003223610809072852
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+E:\NM-net-xiexie\hehba最终定型\pytorch_test.py:288: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach
+().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  img1s_temp = th.tensor(img1s_z_g, dtype=th.float32, requires_grad=False)
+E:\NM-net-xiexie\hehba最终定型\pytorch_test.py:289: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach
+().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  xs1s_temp = th.tensor(xs1s, dtype=th.float32, requires_grad=False)
+E:\NM-net-xiexie\hehba最终定型\pytorch_test.py:291: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach
+().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  img2s_temp = th.tensor(img2s_z_g, dtype=th.float32, requires_grad=False)
+E:\NM-net-xiexie\hehba最终定型\pytorch_test.py:292: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach
+().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  xs2s_temp = th.tensor(xs2s, dtype=th.float32, requires_grad=False)
+[0.9241884] [0.9315845] [0.9227822]
+Validation F-measure : [0.9227822]
+Saving best model with va_res = [0.9227822]
+Epoch: 1 / 2 ---- Trainning Loss : 0.0030745232943445444
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.96866804] [0.93069917] [0.9462272]
+Validation F-measure : [0.9462272]
+Saving best model with va_res = [0.9462272]
+Loading test data
+111111 E:/NM-net-xiexie/datasets\COLMAP\test
+merge_data 333
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.96928096] [0.9383784] [0.9505606]
+Testing F-measure : [0.9505606]
+
+
+
+
+
+
+
+
+
+
+

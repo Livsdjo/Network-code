@@ -1,0 +1,312 @@
+E:\Anaconda3\envs\NMnet_New\python.exe E:/NM-net-xiexie/hehba最终定型/main.py
+2022-01-17 13:54:51.541472: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
+2022-01-17 13:54:51.549046: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+E:\Anaconda3\envs\NMnet_New\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In futur
+e, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+E:\NM-net-xiexie\hehba最终定型\transformations.py:1899: UserWarning: failed to import module _transformations
+  warnings.warn("failed to import module %s" % name)
+
+Bad key "text.kerning_factor" on line 4 in
+E:\Anaconda3\envs\NMnet_New\lib\site-packages\matplotlib\mpl-data\stylelib\_classic_test_patch.mplstyle.
+You probably need to get an updated matplotlibrc file from
+http://github.com/matplotlib/matplotlib/blob/master/matplotlibrc.template
+or from the matplotlib source distribution
+Setting up a new session...
+Initializing...
+Restoring ...... 接着训练
+Loading train data
+111111 E:/NM-net-xiexie/datasets\COLMAP\train
+merge_data 568
+xs_4 1570
+label 1570
+xs_12 1570
+others 1570
+训练集个数: 1570
+Starting from scratch...
+Starting Session>>>>>>
+WARNING:tensorflow:From E:\NM-net-xiexie\hehba最终定型\preprocess.py:221: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2022-01-17 13:58:52.634411: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2022-01-17 13:58:52.726608: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library nvcuda.dll
+2022-01-17 13:58:53.049726: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties:
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:01:00.0
+2022-01-17 13:58:53.055579: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
+2022-01-17 13:58:53.060226: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cublas64_100.dll'; dlerror: cublas64_100.dll not found
+2022-01-17 13:58:53.064365: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cufft64_100.dll'; dlerror: cufft64_100.dll not found
+2022-01-17 13:58:53.068284: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'curand64_100.dll'; dlerror: curand64_100.dll not found
+2022-01-17 13:58:53.072624: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cusolver64_100.dll'; dlerror: cusolver64_100.dll not found
+2022-01-17 13:58:53.077636: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cusparse64_100.dll'; dlerror: cusparse64_100.dll not found
+2022-01-17 13:58:53.081201: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2022-01-17 13:58:53.083842: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are insta
+lled properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-01-17 13:58:53.092328: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-01-17 13:58:53.095304: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0
+2022-01-17 13:58:53.097437: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N
+WARNING:tensorflow:From E:\NM-net-xiexie\hehba最终定型\preprocess.py:223: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From E:\NM-net-xiexie\hehba最终定型\preprocess.py:245: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+E:/NM-net-xiexie/hehba最终定型/main.py:381: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requi
+res_grad_(True), rather than torch.tensor(sourceTensor).
+  img1s_temp = th.tensor(img1s_z_g, dtype=th.float32, requires_grad=False)
+E:/NM-net-xiexie/hehba最终定型/main.py:382: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requi
+res_grad_(True), rather than torch.tensor(sourceTensor).
+  xs1s_temp = th.tensor(xs1s, dtype=th.float32, requires_grad=False)
+E:/NM-net-xiexie/hehba最终定型/main.py:384: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requi
+res_grad_(True), rather than torch.tensor(sourceTensor).
+  img2s_temp = th.tensor(img2s_z_g, dtype=th.float32, requires_grad=False)
+E:/NM-net-xiexie/hehba最终定型/main.py:385: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requi
+res_grad_(True), rather than torch.tensor(sourceTensor).
+  xs2s_temp = th.tensor(xs2s, dtype=th.float32, requires_grad=False)
+E:\Anaconda3\envs\NMnet_New\lib\site-packages\torch\nn\functional.py:1614: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+Epoch: 0 / 60 ---- Trainning Loss : 0.004997785668820143
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+E:\NM-net-xiexie\hehba最终定型\pytorch_test.py:288: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach
+().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  img1s_temp = th.tensor(img1s_z_g, dtype=th.float32, requires_grad=False)
+E:\NM-net-xiexie\hehba最终定型\pytorch_test.py:289: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach
+().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  xs1s_temp = th.tensor(xs1s, dtype=th.float32, requires_grad=False)
+E:\NM-net-xiexie\hehba最终定型\pytorch_test.py:291: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach
+().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  img2s_temp = th.tensor(img2s_z_g, dtype=th.float32, requires_grad=False)
+E:\NM-net-xiexie\hehba最终定型\pytorch_test.py:292: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach
+().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  xs2s_temp = th.tensor(xs2s, dtype=th.float32, requires_grad=False)
+[0.9701644] [0.9514017] [0.95955724]
+Validation F-measure : [0.95955724]
+Saving best model with va_res = [0.95955724]
+Epoch: 1 / 60 ---- Trainning Loss : 0.004886744078248739
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.94007534] [0.959947] [0.94689834]
+Validation F-measure : [0.94689834]
+Epoch: 2 / 60 ---- Trainning Loss : 0.004963516257703304
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.97009516] [0.9501398] [0.95881313]
+Validation F-measure : [0.95881313]
+Epoch: 3 / 60 ---- Trainning Loss : 0.004875467158854008
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9701904] [0.9485663] [0.9579801]
+Validation F-measure : [0.9579801]
+Epoch: 4 / 60 ---- Trainning Loss : 0.004733300302177668
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9556383] [0.95715296] [0.9544954]
+Validation F-measure : [0.9544954]
+Epoch: 5 / 60 ---- Trainning Loss : 0.004660935141146183
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9696099] [0.9540168] [0.9602457]
+Validation F-measure : [0.9602457]
+Saving best model with va_res = [0.9602457]
+Epoch: 6 / 60 ---- Trainning Loss : 0.004718048498034477
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9629562] [0.953751] [0.9568635]
+Validation F-measure : [0.9568635]
+Epoch: 7 / 60 ---- Trainning Loss : 0.004663953557610512
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9382845] [0.9601873] [0.9465468]
+Validation F-measure : [0.9465468]
+Epoch: 8 / 60 ---- Trainning Loss : 0.004533390048891306
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.95691407] [0.9553116] [0.9541146]
+Validation F-measure : [0.9541146]
+Epoch: 9 / 60 ---- Trainning Loss : 0.00434366287663579
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9649277] [0.94997543] [0.95547575]
+Validation F-measure : [0.95547575]
+Epoch: 10 / 60 ---- Trainning Loss : 0.004385745618492365
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9745498] [0.9501379] [0.96110755]
+Validation F-measure : [0.96110755]
+Saving best model with va_res = [0.96110755]
+Epoch: 11 / 60 ---- Trainning Loss : 0.004395612981170416
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9289906] [0.9619873] [0.941947]
+Validation F-measure : [0.941947]
+Epoch: 12 / 60 ---- Trainning Loss : 0.004479515831917524
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.94586074] [0.9600965] [0.9507582]
+Validation F-measure : [0.9507582]
+Epoch: 13 / 60 ---- Trainning Loss : 0.004351058509200811
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9613215] [0.95431733] [0.9563788]
+Validation F-measure : [0.9563788]
+Epoch: 14 / 60 ---- Trainning Loss : 0.004304240923374891
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.97227377] [0.94818026] [0.95893604]
+Validation F-measure : [0.95893604]
+Epoch: 15 / 60 ---- Trainning Loss : 0.004122958984225988
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.957245] [0.9561501] [0.9549784]
+Validation F-measure : [0.9549784]
+Epoch: 16 / 60 ---- Trainning Loss : 0.004215053282678127
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9602965] [0.9528265] [0.955153]
+Validation F-measure : [0.955153]
+Epoch: 17 / 60 ---- Trainning Loss : 0.0043176752515137196
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9645182] [0.95152044] [0.95620376]
+Validation F-measure : [0.95620376]
+Epoch: 18 / 60 ---- Trainning Loss : 0.004209333099424839
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.94742924] [0.9563133] [0.9492095]
+Validation F-measure : [0.9492095]
+Epoch: 19 / 60 ---- Trainning Loss : 0.004081085789948702
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9605552] [0.9548254] [0.9557899]
+Validation F-measure : [0.9557899]
+Epoch: 20 / 60 ---- Trainning Loss : 0.00412017572671175
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9817503] [0.94525456] [0.9621321]
+Validation F-measure : [0.9621321]
+Saving best model with va_res = [0.9621321]
+Epoch: 21 / 60 ---- Trainning Loss : 0.004058502148836851
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9456792] [0.9615149] [0.9509279]
+Validation F-measure : [0.9509279]
+Epoch: 22 / 60 ---- Trainning Loss : 0.004061597399413586
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.945998] [0.96029353] [0.9506765]
+Validation F-measure : [0.9506765]
+

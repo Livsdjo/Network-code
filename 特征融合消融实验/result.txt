@@ -1,0 +1,248 @@
+E:\Anaconda3\envs\NMnet_New\python.exe E:/NM-net-xiexie/hehba最终定型/main.py
+2022-01-03 14:29:54.467855: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
+2022-01-03 14:29:54.471863: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+E:\Anaconda3\envs\NMnet_New\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In futur
+e, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+E:\NM-net-xiexie\hehba最终定型\transformations.py:1899: UserWarning: failed to import module _transformations
+  warnings.warn("failed to import module %s" % name)
+
+Bad key "text.kerning_factor" on line 4 in
+E:\Anaconda3\envs\NMnet_New\lib\site-packages\matplotlib\mpl-data\stylelib\_classic_test_patch.mplstyle.
+You probably need to get an updated matplotlibrc file from
+http://github.com/matplotlib/matplotlib/blob/master/matplotlibrc.template
+or from the matplotlib source distribution
+Setting up a new session...
+Initializing...
+Loading train data
+111111 E:/NM-net-xiexie/datasets\COLMAP\train
+merge_data 568
+xs_4 1570
+label 1570
+xs_12 1570
+others 1570
+训练集个数: 1570
+Starting from scratch...
+Starting Session>>>>>>
+E:\Anaconda3\envs\NMnet_New\lib\site-packages\torch\nn\functional.py:1614: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+Epoch: 0 / 20 ---- Trainning Loss : 0.15707801282405853
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.78336096] [0.7716202] [0.7642069]
+Validation F-measure : [0.7642069]
+Saving best model with va_res = [0.7642069]
+Epoch: 1 / 20 ---- Trainning Loss : 0.04342474043369293
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.8654215] [0.8658015] [0.8585514]
+Validation F-measure : [0.8585514]
+Saving best model with va_res = [0.8585514]
+Epoch: 2 / 20 ---- Trainning Loss : 0.02756326273083687
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.78873324] [0.9428948] [0.8440961]
+Validation F-measure : [0.8440961]
+Epoch: 3 / 20 ---- Trainning Loss : 0.020302465185523033
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.90919256] [0.90387744] [0.902729]
+Validation F-measure : [0.902729]
+Saving best model with va_res = [0.902729]
+Epoch: 4 / 20 ---- Trainning Loss : 0.01477931346744299
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.7293971] [0.9751109] [0.8205378]
+Validation F-measure : [0.8205378]
+Epoch: 5 / 20 ---- Trainning Loss : 0.011697797104716301
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.92635196] [0.90862066] [0.91265434]
+Validation F-measure : [0.91265434]
+Saving best model with va_res = [0.91265434]
+Epoch: 6 / 20 ---- Trainning Loss : 0.009016796946525574
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.8951473] [0.9467679] [0.91463]
+Validation F-measure : [0.91463]
+Saving best model with va_res = [0.91463]
+Epoch: 7 / 20 ---- Trainning Loss : 0.006586660631000996
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.8958892] [0.95104855] [0.91815513]
+Validation F-measure : [0.91815513]
+Saving best model with va_res = [0.91815513]
+Epoch: 8 / 20 ---- Trainning Loss : 0.005937597248703241
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.938114] [0.91991144] [0.9249306]
+Validation F-measure : [0.9249306]
+Saving best model with va_res = [0.9249306]
+Epoch: 9 / 20 ---- Trainning Loss : 0.00445798272266984
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9348274] [0.94197005] [0.9359188]
+Validation F-measure : [0.9359188]
+Saving best model with va_res = [0.9359188]
+Epoch: 10 / 20 ---- Trainning Loss : 0.0036777041386812925
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.88115007] [0.96023333] [0.91258097]
+Validation F-measure : [0.91258097]
+Epoch: 11 / 20 ---- Trainning Loss : 0.0031055433209985495
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.96711606] [0.8500655] [0.89803815]
+Validation F-measure : [0.89803815]
+Epoch: 12 / 20 ---- Trainning Loss : 0.0031990238931030035
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9358074] [0.9378378] [0.93373775]
+Validation F-measure : [0.93373775]
+Epoch: 13 / 20 ---- Trainning Loss : 0.002438946394249797
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.96171653] [0.8835845] [0.91586614]
+Validation F-measure : [0.91586614]
+Epoch: 14 / 20 ---- Trainning Loss : 0.0021635035518556833
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9195015] [0.9550752] [0.93417007]
+Validation F-measure : [0.93417007]
+Epoch: 15 / 20 ---- Trainning Loss : 0.0025017878506332636
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.90334994] [0.9640281] [0.92850083]
+Validation F-measure : [0.92850083]
+Epoch: 16 / 20 ---- Trainning Loss : 0.0020184514578431845
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.93706965] [0.94258493] [0.9371338]
+Validation F-measure : [0.9371338]
+Saving best model with va_res = [0.9371338]
+Epoch: 17 / 20 ---- Trainning Loss : 0.001655117841437459
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.92972606] [0.9526262] [0.9384963]
+Validation F-measure : [0.9384963]
+Saving best model with va_res = [0.9384963]
+Epoch: 18 / 20 ---- Trainning Loss : 0.0017153216758742929
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.93201816] [0.94608456] [0.93626696]
+Validation F-measure : [0.93626696]
+Epoch: 19 / 20 ---- Trainning Loss : 0.0014589314814656973
+Loading valid data
+111111 E:/NM-net-xiexie/datasets\COLMAP\valid
+merge_data 341
+xs_4 337
+label 337
+xs_12 337
+others 337
+[0.9521608] [0.92831266] [0.93711203]
+Validation F-measure : [0.93711203]
+Loading test data
+111111 E:/NM-net-xiexie/datasets\COLMAP\test
+merge_data 333
+xs_4 337
+label 337
+xs_12 337
+others 337
+[[0.9315846]] [0.9420595] [[0.9342609]]
+Testing F-measure : [[0.9342609]]
+
